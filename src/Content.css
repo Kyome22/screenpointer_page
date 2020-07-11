@@ -1,0 +1,33 @@
+.content {
+  margin: 0;
+  padding: 0;
+  background-color: #e7ebed;
+  text-align: center;
+  font-family: "Exo 2", sans-serif;
+}
+
+.content div.section {
+  padding: 0px;
+  padding-bottom: 30px;
+}
+
+.content p.title {
+  margin: 0;
+  padding: 20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.content p.sub-title {
+  margin: 0;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.content p.explain {
+  margin: 0;
+  padding: 20px;
+  padding-bottom: 30px;
+  font-size: 24px;
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "en_name": "Spotlight",
+    "ja_name": "スポットライト",
+    "image": "images/pointers/0_spotlight.png"
+  },
+  {
+    "en_name": "Green laser",
+    "ja_name": "レーザポインタ（緑）",
+    "image": "images/pointers/1_green_laser.png"
+  },
+  {
+    "en_name": "Red laser",
+    "ja_name": "レーザポインタ（赤）",
+    "image": "images/pointers/2_red_laser.png"
+  },
+  {
+    "en_name": "Pointer rod",
+    "ja_name": "指示棒",
+    "image": "images/pointers/3_pointer_rod.png"
+  },
+  {
+    "en_name": "Loupe",
+    "ja_name": "虫眼鏡",
+    "image": "images/pointers/4_loupe.png"
+  },
+  {
+    "en_name": "Blur (spot)",
+    "ja_name": "磨りガラス（円領域）",
+    "image": "images/pointers/5_blur_spot.png"
+  },
+  {
+    "en_name": "Blur (row)",
+    "ja_name": "磨りガラス（行）",
+    "image": "images/pointers/6_blur_row.png"
+  },
+  {
+    "en_name": "Blur (column)",
+    "ja_name": "磨りガラス（列）",
+    "image": "images/pointers/7_blur_column.png"
+  },
+  {
+    "en_name": "Cross",
+    "ja_name": "十字線",
+    "image": "images/pointers/8_cross.png"
+  },
+  {
+    "en_name": "Highlight (row)",
+    "ja_name": "ハイライト（行）",
+    "image": "images/pointers/9_highlight_row.png"
+  },
+  {
+    "en_name": "Highlight (column)",
+    "ja_name": "ハイライト（列）",
+    "image": "images/pointers/10_highlight_column.png"
+  },
+  {
+    "en_name": "Focus line",
+    "ja_name": "集中線",
+    "image": "images/pointers/11_focus_line.png"
+  },
+  {
+    "en_name": "Cat",
+    "ja_name": "ねこ",
+    "image": "images/pointers/12_cat.png"
+  },
+  {
+    "en_name": "Mitsudomoe",
+    "ja_name": "三つ巴",
+    "image": "images/pointers/13_mitsudomoe.png"
+  },
+  {
+    "en_name": "Gun-sight",
+    "ja_name": "照準",
+    "image": "images/pointers/14_gun_sight.png"
+  },
+  {
+    "en_name": "Barrier",
+    "ja_name": "バリア",
+    "image": "images/pointers/15_barrier.png"
+  }
+]

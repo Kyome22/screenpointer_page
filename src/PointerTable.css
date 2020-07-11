@@ -1,0 +1,16 @@
+.pointer-table {
+  margin: 0px auto;
+}
+
+.pointer-table td {
+  padding: 0px 5px;
+}
+
+.pointer-table img {
+  width: 240px;
+  height: auto;
+}
+
+.pointer-table p {
+  margin: 10px auto 24px;
+}
