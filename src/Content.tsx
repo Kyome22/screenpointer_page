@@ -39,7 +39,9 @@ export function Content() {
       <div className="section">
         <p className="title">{t("pointers")}</p>
         <PointerTable />
-        <p className="explain">{newline(t("explain5"))}</p>
+        <p className="explain" id="help">
+          {newline(t("explain5"))}
+        </p>
       </div>
       <div className="section">
         <p className="title">{t("operations")}</p>
