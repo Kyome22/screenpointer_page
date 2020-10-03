@@ -3,6 +3,7 @@ import i18n from "i18next";
 import { useTranslation } from "react-i18next";
 import "./Content.css";
 import { PointerTable } from "./PointerTable";
+import { QA } from "./QA";
 
 export function Content() {
   const lang = i18n.language;
@@ -59,6 +60,11 @@ export function Content() {
         <p className="sub-title">{t("alpha")}</p>
         <img src="images/change_alpha.png" alt="" />
         <p className="explain">{newline(t("explain9"))}</p>
+      </div>
+      <div className="section">
+        <p className="title">{"Q&A"}</p>
+        <QA question={t("question1")} answer={t("answer1")} />
+        <QA question={t("question2")} answer={t("answer2")} />
       </div>
     </div>
   );

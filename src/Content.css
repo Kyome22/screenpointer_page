@@ -31,3 +31,15 @@
   padding-bottom: 30px;
   font-size: 24px;
 }
+
+.content p.qa-mark {
+  font-weight: bold;
+}
+
+.content p.qa-text {
+  margin: 0;
+  padding: 10px;
+  font-size: 24px;
+  /* margin-left: 1.7rem; */
+  background-color: aqua;
+}
