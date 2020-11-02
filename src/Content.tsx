@@ -62,7 +62,9 @@ export function Content() {
         <p className="explain">{newline(t("explain9"))}</p>
       </div>
       <div className="section">
-        <p className="title">{"Q&A"}</p>
+        <p className="title" id="qa">
+          {"Q&A"}
+        </p>
         <QA question={t("question1")} answer={t("answer1")} />
         <QA question={t("question2")} answer={t("answer2")} />
       </div>
