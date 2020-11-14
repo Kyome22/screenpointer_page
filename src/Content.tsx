@@ -50,16 +50,18 @@ export function Content() {
         <img src={`images/${lang}/toggle.png`} alt="" />
         <p className="explain">{newline(t("explain6"))}</p>
         <p className="sub-title">{t("drawing_action")}</p>
-        <img src="images/draw_demo.gif" alt="" />
+        <img src="images/drawing_action_demo.gif" alt="" />
         <p className="explain">{newline(t("explain7"))}</p>
-        <p className="sub-title">{t("switching")}</p>
-        <img src={`images/${lang}/switching.png`} alt="" />
         <p className="sub-title">{t("size")}</p>
         <img src="images/change_size.png" alt="" />
         <p className="explain">{newline(t("explain8"))}</p>
         <p className="sub-title">{t("alpha")}</p>
         <img src="images/change_alpha.png" alt="" />
         <p className="explain">{newline(t("explain9"))}</p>
+        <p className="sub-title">{t("key_action")}</p>
+        <p className="explain">{t("explain10")}</p>
+        <img src={`images/${lang}/switching.png`} alt="" />
+        <p className="explain">{t("explain11")}</p>
       </div>
       <div className="section">
         <p className="title" id="qa">
