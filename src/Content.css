@@ -29,7 +29,13 @@
   margin: 0;
   padding: 20px;
   padding-bottom: 30px;
-  font-size: 24px;
+  font-size: 22px;
+}
+
+.content p.limitation {
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: left;
 }
 
 .content p.qa-mark {

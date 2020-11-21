@@ -45,23 +45,30 @@ export function Content() {
         </p>
       </div>
       <div className="section">
+        <p className="title">{t("select_pointer")}</p>
+        <img src={`images/${lang}/how_to_select_pointer.gif`} />
+        <p className="explain">{newline(t("explain6"))}</p>
+        <p className="explain limitation">{t("explain7")}</p>
+      </div>
+      <div className="section">
         <p className="title">{t("operations")}</p>
         <p className="sub-title">{t("toggle_method")}</p>
         <img src={`images/${lang}/toggle.png`} alt="" />
-        <p className="explain">{newline(t("explain6"))}</p>
+        <p className="explain">{t("explain8")}</p>
         <p className="sub-title">{t("drawing_action")}</p>
+        <p className="explain">{newline(t("explain9"))}</p>
         <img src="images/drawing_action_demo.gif" alt="" />
-        <p className="explain">{newline(t("explain7"))}</p>
+        <p className="explain">{newline(t("explain10"))}</p>
         <p className="sub-title">{t("size")}</p>
         <img src="images/change_size.png" alt="" />
-        <p className="explain">{newline(t("explain8"))}</p>
+        <p className="explain">{newline(t("explain11"))}</p>
         <p className="sub-title">{t("alpha")}</p>
         <img src="images/change_alpha.png" alt="" />
-        <p className="explain">{newline(t("explain9"))}</p>
+        <p className="explain">{newline(t("explain12"))}</p>
         <p className="sub-title">{t("key_action")}</p>
-        <p className="explain">{t("explain10")}</p>
+        <p className="explain">{t("explain13")}</p>
         <img src={`images/${lang}/switching.png`} alt="" />
-        <p className="explain">{t("explain11")}</p>
+        <p className="explain">{t("explain14")}</p>
       </div>
       <div className="section">
         <p className="title" id="qa">
@@ -69,6 +76,7 @@ export function Content() {
         </p>
         <QA question={t("question1")} answer={t("answer1")} />
         <QA question={t("question2")} answer={t("answer2")} />
+        <QA question={t("question3")} answer={t("answer3")} />
       </div>
     </div>
   );
