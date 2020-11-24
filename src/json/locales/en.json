@@ -16,7 +16,7 @@
   "pointers": "Variety of pointers",
   "explain5": "You need to purchase Pro Edition to use all pointers.",
   "select_pointer": "How to select a pointer",
-  "explain6": "Pro Edition purchasers can change the pointer type in Preferences.\nTo change it, click the pointer name in the pointer list to select it.",
+  "explain6": "Pro Edition purchasers can change the pointer type in Preferences. To change it, click the pointer name in the pointer list to select it.",
   "explain7": "You can also set whether the pointer can be selected or not in the checkbox next to the pointer name. By enabling only the frequently used pointers, it is easier to switch pointers with key actions.",
   "operations": "Operations",
   "toggle_method": "Method of showing/hiding the pointer",

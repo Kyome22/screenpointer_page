@@ -9,46 +9,37 @@ export function Content() {
   const lang = i18n.language;
   const { t } = useTranslation();
 
-  const newline = (str: string) => {
-    return str.split("\n").map((str, index) => (
-      <React.Fragment key={`newline-${index}`}>
-        {str}
-        <br />
-      </React.Fragment>
-    ));
-  };
-
   return (
     <div className="content">
       <div className="section">
         <p className="title">{t("what_is_this")}</p>
         <img src="images/screenpointer_demo.gif" alt="" />
-        <p className="explain">{newline(t("explain1"))}</p>
+        <p className="explain">{t("explain1")}</p>
       </div>
       <div className="section">
         <p className="title">{t("sample_usage")}</p>
         <p className="sub-title">{t("presentation")}</p>
         <img src="images/presentation.png" alt="" />
-        <p className="explain">{newline(t("explain2"))}</p>
+        <p className="explain">{t("explain2")}</p>
         <p className="sub-title">{t("workshop")}</p>
         <img src="images/workshop.png" alt="" />
-        <p className="explain">{newline(t("explain3"))}</p>
+        <p className="explain">{t("explain3")}</p>
         <p className="sub-title">{t("spreadsheet")}</p>
         <img src="images/spreadsheet.png" alt="" />
-        <p className="explain">{newline(t("explain4"))}</p>
+        <p className="explain">{t("explain4")}</p>
       </div>
       <div className="section">
         <p className="title">{t("pointers")}</p>
         <PointerTable />
         <p className="explain" id="help">
-          {newline(t("explain5"))}
+          {t("explain5")}
         </p>
       </div>
       <div className="section">
         <p className="title">{t("select_pointer")}</p>
         <img src={`images/${lang}/how_to_select_pointer.gif`} />
-        <p className="explain">{newline(t("explain6"))}</p>
-        <p className="explain limitation">{t("explain7")}</p>
+        <p className="limited-explain">{t("explain6")}</p>
+        <p className="limited-explain">{t("explain7")}</p>
       </div>
       <div className="section">
         <p className="title">{t("operations")}</p>
@@ -56,15 +47,15 @@ export function Content() {
         <img src={`images/${lang}/toggle.png`} alt="" />
         <p className="explain">{t("explain8")}</p>
         <p className="sub-title">{t("drawing_action")}</p>
-        <p className="explain">{newline(t("explain9"))}</p>
+        <p className="explain">{t("explain9")}</p>
         <img src="images/drawing_action_demo.gif" alt="" />
-        <p className="explain">{newline(t("explain10"))}</p>
+        <p className="explain">{t("explain10")}</p>
         <p className="sub-title">{t("size")}</p>
         <img src="images/change_size.png" alt="" />
-        <p className="explain">{newline(t("explain11"))}</p>
+        <p className="explain">{t("explain11")}</p>
         <p className="sub-title">{t("alpha")}</p>
         <img src="images/change_alpha.png" alt="" />
-        <p className="explain">{newline(t("explain12"))}</p>
+        <p className="explain">{t("explain12")}</p>
         <p className="sub-title">{t("key_action")}</p>
         <p className="explain">{t("explain13")}</p>
         <img src={`images/${lang}/switching.png`} alt="" />
