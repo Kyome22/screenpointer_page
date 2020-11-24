@@ -41,5 +41,7 @@
   "detail": "In more detail",
   "privacy_policy_url": "https://kyome.io/privacy_policy/index.html?lang=en&id=1368204906",
   "support": "Support",
+  "mail_subject": "ScreenPointer Issue Report",
+  "mail_body": "# Environment\n- Version of ScreenPointer: [please write]\n- Version of macOS: [please write]\n\n# What You Tried\n- Relaunched the app: [Yes/No]\n- Restored the Pro Edition: [Yes/No]\n\n# Short Description\n\n\n# Steps to Reproduce the Issue\n\n\n# Expected Result\n\n\n",
   "copyright": "©︎ 2018-2020 Takuto Nakamura"
 }
