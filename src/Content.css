@@ -27,8 +27,7 @@
 
 .content p.explain {
   margin: 0;
-  padding: 20px;
-  padding-bottom: 30px;
+  padding: 20px 20px 30px;
   font-size: 22px;
   white-space: pre-line;
 }

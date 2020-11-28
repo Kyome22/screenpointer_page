@@ -61,8 +61,8 @@ export function Content() {
         <img src={`images/${lang}/switching.png`} alt="" />
         <p className="explain">{t("explain14")}</p>
       </div>
-      <div className="section" id="qa">
-        <p className="title">{"Q&A"}</p>
+      <div className="section" id="faq">
+        <p className="title">{t("faq")}</p>
         <QA question={t("question1")} answer={t("answer1")} />
         <QA question={t("question2")} answer={t("answer2")} />
         <QA question={t("question3")} answer={t("answer3")} />
