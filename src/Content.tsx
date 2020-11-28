@@ -1,9 +1,10 @@
 import React from "react";
 import i18n from "i18next";
 import { useTranslation } from "react-i18next";
-import "./Content.css";
+import { Top } from "./Top";
 import { PointerTable } from "./PointerTable";
 import { QA } from "./QA";
+import "./Content.css";
 
 export function Content() {
   const lang = i18n.language;
@@ -11,12 +12,13 @@ export function Content() {
 
   return (
     <div className="content">
-      <div className="section">
+      <Top />
+      <div className="section" id="what_is_this">
         <p className="title">{t("what_is_this")}</p>
         <img src="images/screenpointer_demo.gif" alt="" />
         <p className="explain">{t("explain1")}</p>
       </div>
-      <div className="section">
+      <div className="section" id="sample_usage">
         <p className="title">{t("sample_usage")}</p>
         <p className="sub-title">{t("presentation")}</p>
         <img src="images/presentation.png" alt="" />
@@ -28,20 +30,18 @@ export function Content() {
         <img src="images/spreadsheet.png" alt="" />
         <p className="explain">{t("explain4")}</p>
       </div>
-      <div className="section">
+      <div className="section" id="pointers">
         <p className="title">{t("pointers")}</p>
         <PointerTable />
-        <p className="explain" id="help">
-          {t("explain5")}
-        </p>
+        <p className="explain">{t("explain5")}</p>
       </div>
-      <div className="section">
+      <div className="section" id="select_pointer">
         <p className="title">{t("select_pointer")}</p>
         <img src={`images/${lang}/how_to_select_pointer.gif`} />
         <p className="limited-explain">{t("explain6")}</p>
         <p className="limited-explain">{t("explain7")}</p>
       </div>
-      <div className="section">
+      <div className="section" id="operations">
         <p className="title">{t("operations")}</p>
         <p className="sub-title">{t("toggle_method")}</p>
         <img src={`images/${lang}/toggle.png`} alt="" />
@@ -61,10 +61,8 @@ export function Content() {
         <img src={`images/${lang}/switching.png`} alt="" />
         <p className="explain">{t("explain14")}</p>
       </div>
-      <div className="section">
-        <p className="title" id="qa">
-          {"Q&A"}
-        </p>
+      <div className="section" id="qa">
+        <p className="title">{"Q&A"}</p>
         <QA question={t("question1")} answer={t("answer1")} />
         <QA question={t("question2")} answer={t("answer2")} />
         <QA question={t("question3")} answer={t("answer3")} />
