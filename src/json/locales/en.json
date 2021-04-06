@@ -16,7 +16,7 @@
   "pointers": "Variety of pointers",
   "explain5": "You need to purchase Pro Edition to use all pointers.",
   "select_pointer": "How to select a pointer",
-  "explain6": "Pro Edition purchasers can change the pointer type in Preferences. To change it, click the pointer name in the pointer list to select it.",
+  "explain6": "Pro Edition purchasers can change the pointer type in Preferences.\nTo change it, click the radio button to the left of the pointer name in the list to select it.",
   "explain7": "You can also set whether the pointer can be selected or not in the checkbox next to the pointer name. By enabling only the frequently used pointers, it is easier to switch pointers with key actions.",
   "operations": "How to operation",
   "toggle_method": "Method of showing/hiding the pointer",
@@ -44,5 +44,5 @@
   "support": "Support",
   "mail_subject": "ScreenPointer Issue Report",
   "mail_body": "# Environment\n- Version of ScreenPointer: [please write]\n- Version of macOS: [please write]\n\n# What You Tried\n- Relaunched the app: [Yes/No]\n- Restored the Pro Edition: [Yes/No]\n\n# Short Description\n\n\n# Steps to Reproduce the Issue\n\n\n# Expected Result\n\n\n",
-  "copyright": "©︎ 2018-2020 Takuto Nakamura"
+  "copyright": "©︎ 2018-2021 Takuto Nakamura"
 }

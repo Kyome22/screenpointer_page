@@ -11,6 +11,13 @@
   padding: 60px 0 30px;
 }
 
+.section img.usage {
+  vertical-align: top;
+  margin: 5px 10px;
+  width: 380px;
+  height: auto;
+}
+
 .content p.title {
   margin: 0;
   padding: 20px;

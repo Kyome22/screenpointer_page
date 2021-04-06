@@ -2,7 +2,7 @@ import React from "react";
 import i18n from "i18next";
 import { useTranslation } from "react-i18next";
 import { Top } from "./Top";
-import { PointerTable } from "./PointerTable";
+import { PointerCollection } from "./PointerCollection";
 import { QA } from "./QA";
 import "./Content.css";
 
@@ -21,23 +21,26 @@ export function Content() {
       <div className="section" id="sample_usage">
         <p className="title">{t("sample_usage")}</p>
         <p className="sub-title">{t("presentation")}</p>
-        <img src="images/presentation.png" alt="" />
+        <img className="usage" src="images/presentation_1.png" alt="" />
+        <img className="usage" src="images/presentation_2.png" alt="" />
         <p className="explain">{t("explain2")}</p>
         <p className="sub-title">{t("workshop")}</p>
-        <img src="images/workshop.png" alt="" />
+        <img className="usage" src="images/workshop_1.png" alt="" />
+        <img className="usage" src="images/workshop_2.png" alt="" />
         <p className="explain">{t("explain3")}</p>
         <p className="sub-title">{t("spreadsheet")}</p>
-        <img src="images/spreadsheet.png" alt="" />
+        <img className="usage" src="images/spreadsheet_1.png" alt="" />
+        <img className="usage" src="images/spreadsheet_2.png" alt="" />
         <p className="explain">{t("explain4")}</p>
       </div>
       <div className="section" id="pointers">
         <p className="title">{t("pointers")}</p>
-        <PointerTable />
+        <PointerCollection />
         <p className="explain">{t("explain5")}</p>
       </div>
       <div className="section" id="select_pointer">
         <p className="title">{t("select_pointer")}</p>
-        <img src={`images/${lang}/how_to_select_pointer.gif`} />
+        <img src={`images/${lang}/selecting.gif`} />
         <p className="limited-explain">{t("explain6")}</p>
         <p className="limited-explain">{t("explain7")}</p>
       </div>

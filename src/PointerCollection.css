@@ -1,0 +1,20 @@
+.pointer-collection {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1020px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 240px);
+  grid-auto-rows: 194px;
+  grid-gap: 20px;
+  justify-content: center;
+}
+
+.pointer-child img {
+  width: 240px;
+  height: auto;
+  vertical-align: top;
+}
+
+.pointer-child p {
+  margin: 10px auto;
+}
