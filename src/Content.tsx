@@ -1,75 +1,37 @@
 import React from "react";
 import i18n from "i18next";
 import { useTranslation } from "react-i18next";
-import { Top } from "./Top";
-import { PointerCollection } from "./PointerCollection";
-import { QA } from "./QA";
+import Top from "./Top";
+import SampleUsage from "./SampleUsage";
+import Pointers from "./Pointers";
+import Operations from "./Operations";
+import FAQ from "./FAQ";
 import "./Content.css";
 
-export function Content() {
+export default function Content() {
   const lang = i18n.language;
   const { t } = useTranslation();
 
   return (
     <div className="content">
       <Top />
-      <div className="section" id="what_is_this">
+      <div className="section">
+        <a className="anchor" id="what_is_this" />
         <p className="title">{t("what_is_this")}</p>
         <img src="images/screenpointer_demo.gif" alt="" />
-        <p className="explain">{t("explain1")}</p>
+        <p className="limited-explain">{t("explain1")}</p>
       </div>
-      <div className="section" id="sample_usage">
-        <p className="title">{t("sample_usage")}</p>
-        <p className="sub-title">{t("presentation")}</p>
-        <img className="usage" src="images/presentation_1.png" alt="" />
-        <img className="usage" src="images/presentation_2.png" alt="" />
-        <p className="explain">{t("explain2")}</p>
-        <p className="sub-title">{t("workshop")}</p>
-        <img className="usage" src="images/workshop_1.png" alt="" />
-        <img className="usage" src="images/workshop_2.png" alt="" />
-        <p className="explain">{t("explain3")}</p>
-        <p className="sub-title">{t("spreadsheet")}</p>
-        <img className="usage" src="images/spreadsheet_1.png" alt="" />
-        <img className="usage" src="images/spreadsheet_2.png" alt="" />
-        <p className="explain">{t("explain4")}</p>
-      </div>
-      <div className="section" id="pointers">
-        <p className="title">{t("pointers")}</p>
-        <PointerCollection />
-        <p className="explain">{t("explain5")}</p>
-      </div>
-      <div className="section" id="select_pointer">
+      <SampleUsage />
+      <Pointers />
+      <div className="section">
+        <a className="anchor" id="select_pointer" />
         <p className="title">{t("select_pointer")}</p>
         <img src={`images/${lang}/selecting.gif`} />
         <p className="limited-explain">{t("explain6")}</p>
         <p className="limited-explain">{t("explain7")}</p>
       </div>
-      <div className="section" id="operations">
-        <p className="title">{t("operations")}</p>
-        <p className="sub-title">{t("toggle_method")}</p>
-        <img src={`images/${lang}/toggle.png`} alt="" />
-        <p className="explain">{t("explain8")}</p>
-        <p className="sub-title">{t("drawing_action")}</p>
-        <p className="explain">{t("explain9")}</p>
-        <img src="images/drawing_action_demo.gif" alt="" />
-        <p className="explain">{t("explain10")}</p>
-        <p className="sub-title">{t("size")}</p>
-        <img src="images/change_size.png" alt="" />
-        <p className="explain">{t("explain11")}</p>
-        <p className="sub-title">{t("alpha")}</p>
-        <img src="images/change_alpha.png" alt="" />
-        <p className="explain">{t("explain12")}</p>
-        <p className="sub-title">{t("key_action")}</p>
-        <p className="explain">{t("explain13")}</p>
-        <img src={`images/${lang}/switching.png`} alt="" />
-        <p className="explain">{t("explain14")}</p>
-      </div>
-      <div className="section" id="faq">
-        <p className="title">{t("faq")}</p>
-        <QA question={t("question1")} answer={t("answer1")} />
-        <QA question={t("question2")} answer={t("answer2")} />
-        <QA question={t("question3")} answer={t("answer3")} />
-      </div>
+      <Operations />
+      <FAQ />
     </div>
   );
 }

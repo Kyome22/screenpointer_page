@@ -1,14 +1,10 @@
 .content {
-  margin: 0;
-  padding: 60px 0 0;
   background-color: #e7ebed;
-  text-align: center;
   font-family: "Exo 2", sans-serif;
 }
 
 .content div.section {
-  margin-top: -60px;
-  padding: 60px 0 30px;
+  padding: 20px 0;
 }
 
 .section img.usage {
@@ -16,52 +12,4 @@
   margin: 5px 10px;
   width: 380px;
   height: auto;
-}
-
-.content p.title {
-  margin: 0;
-  padding: 20px;
-  font-size: 40px;
-  font-weight: bold;
-}
-
-.content p.sub-title {
-  margin: 0;
-  padding: 20px;
-  font-size: 30px;
-  font-weight: bolder;
-}
-
-.content p.explain {
-  margin: 0;
-  padding: 20px 20px 30px;
-  font-size: 22px;
-  white-space: pre-line;
-}
-
-.content p.limited-explain {
-  margin: 0 auto;
-  padding: 20px;
-  padding-bottom: 30px;
-  max-width: 750px;
-  font-size: 22px;
-  text-align: left;
-  white-space: pre-line;
-}
-
-.content p.limitation {
-  margin: 0 auto;
-  max-width: 800px;
-  text-align: left;
-}
-
-.content p.qa-mark {
-  font-weight: bold;
-}
-
-.content p.qa-text {
-  margin: 0;
-  padding: 10px;
-  font-size: 24px;
-  background-color: aqua;
 }

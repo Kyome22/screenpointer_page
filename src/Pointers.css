@@ -1,6 +1,5 @@
-.pointer-collection {
+.pointer-grid {
   margin: 0 auto;
-  padding: 0 20px;
   max-width: 1020px;
   display: grid;
   grid-template-columns: repeat(auto-fit, 240px);
@@ -9,12 +8,12 @@
   justify-content: center;
 }
 
-.pointer-child img {
+.pointer-grid img {
   width: 240px;
   height: auto;
   vertical-align: top;
 }
 
-.pointer-child p {
+.pointer-grid p {
   margin: 10px auto;
 }
