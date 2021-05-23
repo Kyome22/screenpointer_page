@@ -9,7 +9,7 @@ export default function Top() {
   return (
     <div className="section top">
       <div className="app">
-        <img className="app-icon" src="images/icon.png" />
+        <img className="app-icon" src="images/icon.png" alt="" />
         <span className="app-name">{t("app_name")}</span>
       </div>
       <h2 className="catchcopy">{t("catchcopy")}</h2>
